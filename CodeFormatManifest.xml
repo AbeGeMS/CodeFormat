@@ -8,7 +8,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="CodeFormat" />
   <Description DefaultValue="CodeFormat" />
-  <IconUrl DefaultValue="\\modcfs01\ECO\Users\Abe\AgaveSite\Codeformat\Images\logo.png" />
+  <IconUrl DefaultValue="http://abege.azurewebsites.net/Codeformat/Images/logo.png" />
   <Capabilities>
    <!-- <Capability Name="Workbook" />
     <Capability Name="Project" />-->
@@ -16,7 +16,7 @@
     <!--<Capability Name="Presentation" />-->
   </Capabilities>
   <DefaultSettings>
-    <SourceLocation DefaultValue="\\modcfs01\ECO\Users\Abe\AgaveSite\Codeformat\App\Home\Home.html" />
+    <SourceLocation DefaultValue="http://abege.azurewebsites.net/Codeformat/App/Home/home.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
