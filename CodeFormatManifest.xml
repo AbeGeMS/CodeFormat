@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Published:1edd050d-37f2-4edc-b53a-118283df4f1d-->
 <!--Created:cbbc9d22-5cf7-4e4c-8ee9-42a772aae58a-->
-<OfficeApp xsi:type="TaskPaneApp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/office/appforoffice/1.0">
+<OfficeApp xsi:type="TaskPaneApp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/office/appforoffice/1.1">
   <Id>841a845c-70d5-4925-9ceb-d681d22fab11</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Abe Ge</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="CodeFormat" />
   <Description DefaultValue="CodeFormat" />
-  <IconUrl DefaultValue="http://abege.azurewebsites.net/Codeformat/Images/logo.png" />
+  <IconUrl DefaultValue="https://abege.azurewebsites.net/Codeformat/Images/logo_small.png" />
+  <SupportUrl DefaultValue="https://abege.azurewebsites.net/Codeformat/Content/PrivacyPolicyAndSupport.html"></SupportUrl>
   <Capabilities>
    <!-- <Capability Name="Workbook" />
     <Capability Name="Project" />-->
@@ -16,7 +17,7 @@
     <!--<Capability Name="Presentation" />-->
   </Capabilities>
   <DefaultSettings>
-    <SourceLocation DefaultValue="http://abege.azurewebsites.net/Codeformat/App/Home/home.html" />
+    <SourceLocation DefaultValue="https://abege.azurewebsites.net/Codeformat/App/Home/home.html" />
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
