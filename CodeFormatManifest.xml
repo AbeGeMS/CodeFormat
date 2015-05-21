@@ -10,12 +10,9 @@
   <Description DefaultValue="CodeFormat" />
   <IconUrl DefaultValue="https://abege.azurewebsites.net/Codeformat/Images/logo_small.png" />
   <SupportUrl DefaultValue="https://abege.azurewebsites.net/Codeformat/Content/PrivacyPolicyAndSupport.html"></SupportUrl>
-  <Capabilities>
-   <!-- <Capability Name="Workbook" />
-    <Capability Name="Project" />-->
-    <Capability Name="Document" />
-    <!--<Capability Name="Presentation" />-->
-  </Capabilities>
+  <Hosts>
+    <Host  Name="Document" />
+  </Hosts>
   <DefaultSettings>
     <SourceLocation DefaultValue="https://abege.azurewebsites.net/Codeformat/App/Home/home.html" />
   </DefaultSettings>
