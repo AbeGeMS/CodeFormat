@@ -54,7 +54,7 @@
     
     function SetStyle(codeElem){
         codeElem.querySelector('ol').innerHTML +="<li><span/></li>";
-        return document.body.querySelector('#template').innerHTML.replace('%code%',codeElem.outerHTML);
+        return document.body.querySelector('#template').innerHTML.replace('%code%',codeElem.outerHTML).replace('<!--','').replace('-->','');
     }
     
 })();
